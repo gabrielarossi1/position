@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: blueviolet;
+    height: 7rem;
+    padding-top: 2rem;
+    position: sticky;
+    top: 0;
+}
+
+
+a{
+    font-size: xx-large;
+    text-decoration: none;
+    margin-left: 2rem;
+    color: black;
+}
+
+main{
+    background-image: url("./assets/img/fondo.jpg");
+}
+
+.contenedor-padre{
+    padding: 1rem;
+}
+.contenedor-padre > p{
+    font-size: 20px;
+}
+.contenedor-padre > div{
+    padding: 1.5rem;
+}
