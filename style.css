@@ -10,6 +10,7 @@ header{
     padding-top: 2rem;
     position: sticky;
     top: 0;
+    /* z-index: 2; */
 }
 
 
@@ -33,3 +34,26 @@ main{
 .contenedor-padre > div{
     padding: 1.5rem;
 }
+
+.contenedor-img > img{
+    width: 170px;
+}
+
+/* .contenedor-padre{
+    position: relative;
+} */
+
+/* .dona-img{
+    position: relative;
+    left: 30rem;
+} */
+
+/* .helado-img{
+    position: absolute;
+    top: 10rem;
+} */
+
+/* .caramelo-img{
+    position: fixed;
+    bottom: 20px;
+} */
